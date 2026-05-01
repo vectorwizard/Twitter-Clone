@@ -327,11 +327,17 @@
   .w-14 {
     width: calc(var(--spacing) * 14);
   }
+  .w-\[30vw\] {
+    width: 30vw;
+  }
   .w-\[70\%\] {
     width: 70%;
   }
   .w-\[80\%\] {
     width: 80%;
+  }
+  .w-\[85\%\] {
+    width: 85%;
   }
   .w-\[96\%\] {
     width: 96%;
@@ -624,6 +630,26 @@
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
+    }
+  }
+  .md\:w-\[30\] {
+    @media (width >= 48rem) {
+      width: 30;
+    }
+  }
+  .md\:w-\[30vw\] {
+    @media (width >= 48rem) {
+      width: 30vw;
+    }
+  }
+  .md\:w-\[70\%\] {
+    @media (width >= 48rem) {
+      width: 70%;
+    }
+  }
+  .md\:w-\[80\%\] {
+    @media (width >= 48rem) {
+      width: 80%;
     }
   }
   .md\:w-full {
